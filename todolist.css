@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #97b9b3b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: #e5e5e7;
+    width: max(35%, 25rem);
+}
+
+.todo-headingContainer {
+    text-align: center;
+}
+.todo-heading {
+    margin: 2rem 1rem;
+    padding: 1rem;
+    background-color: #3b3636b0;
+    color: white;
+    font-size: 1.6rem;
+    box-shadow: inset 0px 0px 3px 9px #97b9b3b0, -1px 4px 7px 2px #3b3b3b69, 4px -4px 7px 2px #ffffff91;
+}
+
+.todo-input {
+    width: max(60%, 4rem);
+    padding: 0.5rem;
+    background-color: #fdfdfd00;
+    box-shadow: inset -2px -2px 3px 2px #00000087, inset 3px 3px 8px 2px #ffffff, 3px 3px 8px 2px #3b3b3b, -3px -3px 8px 2px #d7d2d2;
+    outline: none;
+    border: none;
+    margin-right: 0.8rem;
+    font-size: 1rem;
+}
+.todo-btn {
+    box-shadow: inset 0px -1px 1px 1px #696666bf, inset -3px -3px 6px 2px #6b6b6bc9, 3px 3px 8px 2px #3b3b3b, -3px -3px 8px 2px #d7d2d2;
+    border-radius: 10px;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    color: black;
+    text-shadow: 1px 1px 1px #7b7b7bfc;
+    font-weight: bolder;
+}
+
+.enterlist-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    width: max(50%, 25rem);
+    padding: 1rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #957f70;
+    padding-left: 0.5rem;
+    color: white;
+    text-shadow: 1px 1px 1px #535252f5;
+    font-size: 1.2rem;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.delete-btn {
+    background-color: #97b9b3b0;
+    height: 100%;
+    color: black;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px 0px;
+    text-shadow: 1px 1px 1px white;
+    box-shadow: -3px 0px 5px 0px #39353580;
+}
+
