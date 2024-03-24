@@ -80,7 +80,7 @@ const btnClick = () => {  // function for event listener to enter list
         deleteBtn.addEventListener("click", () => {  // event for deleting lists
             textContainer.remove();
         })
-        saveData();   // function call to store enter data
+        // saveData();   // function call to store enter data
     }
 
     
@@ -92,10 +92,10 @@ todoBtn.addEventListener("click", btnClick); // event listerner to enter lists
 const body = document.querySelector("body");
 body.prepend(todoContainer);
 
-function saveData () {    // function to store enter data
-    localStorage.setItem("data", enterlistsWrapper.innerHTML);
-}
-function showTask (){    // function to retrieve store data 
-    enterlistsWrapper.innerHTML = localStorage.getItem("data");
-}
-showTask(); // function call to retrieve store data 
+// function saveData () {    // function to store enter data
+//     localStorage.setItem("data", enterlistsWrapper.innerHTML);
+// }
+// function showTask (){    // function to retrieve store data 
+//     enterlistsWrapper.innerHTML = localStorage.getItem("data");
+// }
+// showTask(); // function call to retrieve store data 
